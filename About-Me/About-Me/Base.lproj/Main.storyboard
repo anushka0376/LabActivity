@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="eYn-g6-Dv3">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Bio-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="About_Me" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Srishti" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zgx-gT-gfZ">
+                                <rect key="frame" x="150" y="258" width="95" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="C3V-WB-3mw">
+                                <rect key="frame" x="30" y="339" width="333" height="304"/>
+                                <color key="backgroundColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="0.26349914965986393" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="304" id="Nte-m5-LzG"/>
+                                </constraints>
+                                <mutableString key="text">I’m a third-year B.E. Computer Science Engineering student at Chitkara University with a strong passion for using technology to solve real-world problems. I enjoy working in collaborative environments where I can contribute creative ideas and apply a practical, hands-on approach to learning. Over time, I’ve developed a diverse set of skills through projects, experimentation, and teamwork. I’m especially driven by the challenge of turning complex problems into meaningful, impactful solutions. Through this internship, I aim to gain industry experience, sharpen my technical and soft skills, and contribute to real-world projects that make a difference.</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZGX-6N-2IC">
+                                <rect key="frame" x="20" y="677" width="73" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Follow"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cvj-aH-BEm">
+                                <rect key="frame" x="236" y="677" width="137" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Send Message"/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="7i0-aj-LEP">
+                                <rect key="frame" x="40" y="106.66666666666669" width="313" height="127.99999999999997"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Zgx-gT-gfZ" secondAttribute="trailing" constant="148" id="5Tw-yr-b4y"/>
+                            <constraint firstItem="C3V-WB-3mw" firstAttribute="top" secondItem="Zgx-gT-gfZ" secondAttribute="bottom" constant="39" id="B9C-cO-klk"/>
+                            <constraint firstItem="Zgx-gT-gfZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="140" id="E0C-Uf-F6e"/>
+                            <constraint firstItem="C3V-WB-3mw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="HEI-uQ-sM0"/>
+                            <constraint firstItem="7i0-aj-LEP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="MZ5-Ft-6XX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Cvj-aH-BEm" secondAttribute="trailing" constant="20" id="ONX-FX-nvU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7i0-aj-LEP" secondAttribute="trailing" constant="40" id="Yn7-Ms-6oN"/>
+                            <constraint firstItem="Zgx-gT-gfZ" firstAttribute="top" secondItem="7i0-aj-LEP" secondAttribute="bottom" constant="22.666666666666686" id="aUg-D0-yRE"/>
+                            <constraint firstAttribute="bottom" secondItem="ZGX-6N-2IC" secondAttribute="bottom" constant="140" id="dEp-iE-Egm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="C3V-WB-3mw" secondAttribute="trailing" constant="30" id="eEY-oP-hU5"/>
+                            <constraint firstAttribute="bottom" secondItem="Cvj-aH-BEm" secondAttribute="bottom" constant="140" id="mJX-xA-ASp"/>
+                            <constraint firstItem="Zgx-gT-gfZ" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="qiO-sU-3LK"/>
+                            <constraint firstItem="7i0-aj-LEP" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-11.999999999999986" id="tGe-7P-dpU"/>
+                            <constraint firstItem="ZGX-6N-2IC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="xsd-9p-2TZ"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Bio" image="person.fill" catalog="system" id="32c-i3-Cf1"/>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-498.47328244274809" y="85.91549295774648"/>
+        </scene>
+        <!--Family-->
+        <scene sceneID="vL2-tl-Whh">
+            <objects>
+                <viewController id="aPo-EX-j6Y" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Znj-50-z2H">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Family" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YY0-p4-Osg">
+                                <rect key="frame" x="150" y="188" width="96.666666666666686" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aaV-9U-sow">
+                                <rect key="frame" x="67" y="321" width="259" height="210"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.40000000000000002" alpha="0.57982568027210879" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="210" id="xEI-vU-yWK"/>
+                                </constraints>
+                                <string key="text">I come from a close-knit and supportive family of five. My family includes my mother, father, sister, grandfather, and me. Each member plays a special role in my life. My parents have always encouraged me to pursue my goals with dedication and confidence. My sister is both a friend and a motivator, and my grandfather inspires me with his wisdom and life experiences. Together, they’ve created a loving environment that has shaped who I am today.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="3Ha-9v-THZ"/>
+                        <color key="backgroundColor" red="1" green="1" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="aaV-9U-sow" firstAttribute="centerX" secondItem="Znj-50-z2H" secondAttribute="centerX" id="0ji-Dj-nmX"/>
+                            <constraint firstItem="YY0-p4-Osg" firstAttribute="leading" secondItem="3Ha-9v-THZ" secondAttribute="leading" constant="150" id="RGF-3y-bIh"/>
+                            <constraint firstItem="aaV-9U-sow" firstAttribute="top" secondItem="YY0-p4-Osg" secondAttribute="bottom" constant="91" id="TB7-RQ-RxV"/>
+                            <constraint firstItem="YY0-p4-Osg" firstAttribute="top" secondItem="3Ha-9v-THZ" secondAttribute="top" constant="70" id="Uok-b3-9Yh"/>
+                            <constraint firstItem="aaV-9U-sow" firstAttribute="leading" secondItem="3Ha-9v-THZ" secondAttribute="leading" constant="67" id="d9B-hq-vcQ"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Family" image="person.2.fill" catalog="system" id="dvE-9U-6ho"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XZJ-3V-ixD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="537" y="86"/>
+        </scene>
+        <!--Hobbies-->
+        <scene sceneID="y4M-4g-5TS">
+            <objects>
+                <viewController id="9Wi-JB-ydN" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="835-Jn-5oL">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hobbies" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Krl-4V-p2w">
+                                <rect key="frame" x="150" y="188" width="126" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zZg-XI-h2R">
+                                <rect key="frame" x="20" y="315" width="353" height="314"/>
+                                <color key="backgroundColor" red="0.80000000000000004" green="0.40000000000000002" blue="0.80000000000000004" alpha="0.32153486394557823" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="314" id="zBo-cS-taR"/>
+                                </constraints>
+                                <mutableString key="text">In my free time, I enjoy a variety of hobbies that keep me energized and inspired. I love dancing, which allows me to express myself creatively and stay active. Playing badminton is another favorite activity, helping me stay fit and focused. I’m also passionate about reading books, as it broadens my knowledge and sparks my imagination. Baking is a fun and rewarding hobby that lets me experiment with flavors and create delicious treats. Listening to music is a constant source of relaxation and motivation, while drawing helps me unwind and explore my artistic side. These hobbies not only bring me joy but also help me maintain a balanced and fulfilling life.</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="3DB-mr-3do"/>
+                        <color key="backgroundColor" red="1" green="0.80000000000000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" systemColor="systemTealColor"/>
+                        <constraints>
+                            <constraint firstItem="3DB-mr-3do" firstAttribute="trailing" secondItem="zZg-XI-h2R" secondAttribute="trailing" constant="20" id="351-HC-e6j"/>
+                            <constraint firstItem="zZg-XI-h2R" firstAttribute="top" secondItem="Krl-4V-p2w" secondAttribute="bottom" constant="85" id="5wv-8X-23l"/>
+                            <constraint firstItem="zZg-XI-h2R" firstAttribute="leading" secondItem="3DB-mr-3do" secondAttribute="leading" constant="20" id="65h-em-H4C"/>
+                            <constraint firstItem="3DB-mr-3do" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Krl-4V-p2w" secondAttribute="trailing" symbolic="YES" id="CfU-Q7-ZP0"/>
+                            <constraint firstItem="Krl-4V-p2w" firstAttribute="leading" secondItem="3DB-mr-3do" secondAttribute="leading" constant="150" id="NAh-5g-HHT"/>
+                            <constraint firstItem="Krl-4V-p2w" firstAttribute="top" secondItem="3DB-mr-3do" secondAttribute="top" constant="70" id="PTz-v2-Xua"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Hobbies" image="figure.dance" catalog="system" id="bdV-Os-S5m"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="E7f-MU-w32" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1564" y="86"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="WbY-4Q-eTe">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="eYn-g6-Dv3" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="HOC-yX-NuG">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="6Wo-FX-IzZ"/>
+                        <segue destination="aPo-EX-j6Y" kind="relationship" relationship="viewControllers" id="oOe-rF-Iq5"/>
+                        <segue destination="9Wi-JB-ydN" kind="relationship" relationship="viewControllers" id="Bwu-JL-EQM"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qxZ-c9-KFl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="245" y="-842"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="figure.dance" catalog="system" width="83" height="128"/>
+        <image name="person.2.fill" catalog="system" width="128" height="86"/>
+        <image name="person.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
