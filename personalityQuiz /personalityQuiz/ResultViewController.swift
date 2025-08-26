@@ -9,6 +9,9 @@ import UIKit
 
 
 class ResultViewController: UIViewController {
+    
+    
+    
     var responses: [Answer]
     
     @IBOutlet var resultAnswerLabel: UILabel!

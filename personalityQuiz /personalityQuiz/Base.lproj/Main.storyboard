@@ -333,8 +333,9 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="resultAnswerLabel" destination="B8q-P6-Loq" id="hEK-kW-Clb"/>
+                        <outlet property="resultAnswerLabel" destination="B8q-P6-Loq" id="TUJ-jo-wOt"/>
                         <outlet property="resultDefinationLabel" destination="W3C-Oc-4QV" id="k19-1E-Sgt"/>
+                        <outlet property="resultDefinitionLabel" destination="W3C-Oc-4QV" id="gfh-Db-L0I"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ibw-jT-eIa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
