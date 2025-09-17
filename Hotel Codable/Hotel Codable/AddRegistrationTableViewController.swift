@@ -90,9 +90,6 @@ class AddRegistrationTableViewController: UITableViewController, SelectRoomTypeT
         let midnightToday = Calendar.current.startOfDay(for: Date())
         checkInDatePicker.minimumDate = midnightToday
         checkInDatePicker.date = midnightToday
-        updateDateViews()
-        
-        updateNumberOfGuests()
         
         updateDateViews()
         updateNumberOfGuests()

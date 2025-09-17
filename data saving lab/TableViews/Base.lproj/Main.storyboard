@@ -238,7 +238,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QM0-4b-ofL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="mUc-el-8pv" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="3083" y="10"/>
+            <point key="canvasLocation" x="2999" y="41"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="kW1-u5-QbI">
